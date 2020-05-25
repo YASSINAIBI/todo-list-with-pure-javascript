@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+    <form>
+    <div class="todo-container">
+        <div class="add-task">
+            <input type="text" placeholder="whath you want to do today">
+            <span class="plus">+</span>
+        </div>
+        <div class="tasks-content">
+            <span class="no-task-message">No Tasks To Show</span>
+                <!-- <span class="task-box">
+                    task one
+            <span class="delete">Delete</span>
+                </span> -->
+        </div>
+    </div>
+    </form>
+
+    <div class="task-stats">
+        <div class="tasks-count">
+            Tasks <span>0</span>
+        </div>
+        <div class="tasks-completed">
+            Completed <span>0</span>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>
